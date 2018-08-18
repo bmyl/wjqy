@@ -11,15 +11,15 @@
 <script type="text/javascript">
 	var app=angular.module('app',[]);
 	app.controller('con',function($scope,$http){
-		$scope.index=function(){
-			location.href=""
+		$scope.fan=function(){
+			location.href="fan"
 		}
 	})
 </script>
 <body ng-app="app" ng-controller="con">
 	<div class="container" >
 		<div style="background-color: #999">
-			<button class="glyphicon glyphicon-chevron-left" style="float: left; margin-top: 10px; margin-left: 20px"></button>
+			<button class="glyphicon glyphicon-chevron-left" ng-click="fan()" style="float: left; margin-top: 10px; margin-left: 20px"></button>
 			<h1 align="center">我要买东西</h1>
 		</div>
 		<div align="center" style="height: 400px; border-bottom: 1px solid black">

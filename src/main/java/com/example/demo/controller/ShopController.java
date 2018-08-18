@@ -62,6 +62,10 @@ public class ShopController {
 	{
 		return "center";
 	}
-	//
-	
+	//返回
+	@RequestMapping("fan")
+	public String fan()
+	{
+		return "main";
+	}
 }
