@@ -1,0 +1,13 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+  datasource:
+    data-username: root
+    data-password: root
+    url: jdbc:mysql:localhost:3306/zk
+    driver-class-name: com.mysql.jdbc.Driver
+    
+
