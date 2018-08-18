@@ -44,5 +44,24 @@ public class ShopController {
 	{
 		return "xinxi";
 	}
+	//买东西
+	@RequestMapping("mai")
+	public String mai()
+	{
+		return "mai";
+	}
+	//卖东西
+	@RequestMapping("sal")
+	public String sal()
+	{
+		return "sal";
+	}
+	//我的
+	@RequestMapping("center")
+	public String center()
+	{
+		return "center";
+	}
+	//
 	
 }

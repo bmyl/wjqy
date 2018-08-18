@@ -45,6 +45,19 @@
 			{
 				location="xinxi";
 			}
+			$scope.mai=function()
+			{
+				location="mai";
+			}
+			$scope.sal=function()
+			{
+				location="sal";
+			}
+			$scope.center=function()
+			{
+				location="center";
+			}
+			
 		});
 	</script>
 <body ng-app="myApp" ng-controller="main">
@@ -175,13 +188,13 @@
 			<button class="glyphicon glyphicon-home" style="float: left; margin-top: 15px ;margin-left: 40px;margin-right: 40px"></button>
 		</div>
 		<div>
-			<button class="glyphicon glyphicon-jpy" style="float: left; margin-top: 15px ;margin-left: 40px;margin-right: 40px"></button>
+			<button class="glyphicon glyphicon-jpy" ng-click="mai()" style="float: left; margin-top: 15px ;margin-left: 40px;margin-right: 40px"></button>
 		</div>
 		<div>
-			<button class="glyphicon glyphicon-usd" style="float: left; margin-top: 15px ;margin-left: 40px;margin-right: 40px"></button>
+			<button class="glyphicon glyphicon-usd" ng-click="sal()" style="float: left; margin-top: 15px ;margin-left: 40px;margin-right: 40px"></button>
 		</div>
 		<div>
-			<button class="glyphicon glyphicon-user" style="float: left; margin-top: 15px ;margin-left: 40px;margin-right: 40px"></button>
+			<button class="glyphicon glyphicon-user" ng-click="center()" style="float: left; margin-top: 15px ;margin-left: 40px;margin-right: 40px"></button>
 		</div>
 	</div>
 		
