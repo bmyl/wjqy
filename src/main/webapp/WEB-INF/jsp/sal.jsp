@@ -13,11 +13,15 @@
 		$scope.index=function(){
 			location.href="login"
 		}
+		$scope.fan=function(){
+			location.href="fan"
+		}
 	})
 </script>
 <body ng-app="app" ng-controller="con">
 	<div class="container">
 		<div align="center">
+		<button class="glyphicon glyphicon-chevron-left" ng-click="fan()" style="float: left; margin-top: 10px; margin-left: 20px"></button>
 			<h1 style="background-color: #666">我要卖东西</h1>
 		</div>
 		<div align="center" style="margin-top: 60px">
